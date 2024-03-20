@@ -1,0 +1,7 @@
+CREATE TABLE emprunteur(
+    id INT PRIMARY KEY,
+    nom VARCHAR(50),
+    prenom VARCHAR(50),
+    naissance date,
+    direction VARCHAR(50)
+);
